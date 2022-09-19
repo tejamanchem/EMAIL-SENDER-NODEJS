@@ -23,7 +23,8 @@ const nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport(transport[, defaults]);
 Here we are using Gmail as a service just for sample purposes, Although nodemailer can be easily integrated with any other mail service. In Gmail, we can either make our account less secure or we can use the Oauth2 security authentication unless normally google will not allow sending any mail via node.js.
 
-Less Secure Account: Visit this link to make your account less secure, after doing this we can create our working transporter object just with the username and password of your Gmail account.
+#### Less Secure Account: 
+Visit this link to make your account less secure, after doing this we can create our working transporter object just with the username and password of your Gmail account.
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210830231840/ezgifcomgifmaker7.gif">
 
