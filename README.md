@@ -33,6 +33,8 @@ According to official docs here we need to provide client id, client secret, ref
 
 1. Open Google Cloud Console: In this step, we will get our client id and client secret. Visit the google cloud console website and register/sign in yourself. Then proceed to API & Services section from the leftmost navigation bar. Now check out the dashboard and create a project. After this, visit the Oauth consent screen to register about your application in this step make sure to select user type external and add some/one Test Users. After this step, go to the credentials section and click on Create credentials and then choose Oauth2 ClientID and choose application type as a web application, also make sure to add redirect URI as OAuth playground (copy link from here). Finally, you’ll be successful to get your client_id and client_secret.
 
+
+
 <img src='https://media.geeksforgeeks.org/wp-content/uploads/20210830205532/Final2.gif'>
 
 2. Open the Oauth2 Playground: Here we will get our refresh token and access token. Visit the OAuth2 playground, Click on the
