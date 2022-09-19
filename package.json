@@ -1,0 +1,22 @@
+{
+  "name": "email-sender-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejamanchem/EMAIL-SENDER-NODEJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejamanchem/EMAIL-SENDER-NODEJS/issues"
+  },
+  "homepage": "https://github.com/tejamanchem/EMAIL-SENDER-NODEJS#readme",
+  "dependencies": {
+    "nodemailer": "^6.7.8"
+  }
+}
